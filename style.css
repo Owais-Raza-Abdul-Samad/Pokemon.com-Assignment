@@ -1,0 +1,414 @@
+body {
+    background: #424242 url(images/body-bg.png);
+    font-family: "Flexo-Regular", arial, sans-serif;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* HEADER */
+
+.logos {
+    background-color: #F5F5F5;
+    padding: 0% 350px;
+    border-bottom: 2px solid lightgrey;
+}
+.poki-logo img {
+    box-shadow: 0px 0px 5px #4b4b4b;
+    padding: 0px 5px;
+}
+.navbar {
+    background: #FFF;
+    border-bottom: 2px solid #f0f0f0;
+    padding: 0% 250px;
+    height: 87px;
+}
+.navbar img {
+    width: 40px;
+    height: 40px;
+    padding: 0px 37%;
+}
+.navbar p {
+    color: #424242;
+    padding: 0px 0%;
+    margin: 16px 0% 0px;
+}
+.nav-container {
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px #4b4b4b;
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    z-index: 2;
+}
+.home img, .pokedex img, .news img {
+    padding: 0px 12%;
+}
+.nav-container div {
+    margin-top: 10px;
+}
+.nav-container hr {
+    border-width: 2px;
+}
+.home hr {
+    border-color: #ababab;
+    background-color: #ababab;
+}
+.pokedex hr {
+    border-color: #ed0000;
+    background-color: #ed0000;
+}
+.games hr {
+    border-color: #ff6709;
+    background-color: #ff6709;
+}
+.trading-cards hr {
+    border-color: #ffac11;
+    background-color: #ffac11;
+}
+.pokitv hr {
+    border-color: #3fff04;
+    background-color: #3fff04;
+}
+.pokievent hr {
+    border-color: #03c4ff;
+    background-color: #03c4ff;
+}
+.news hr {
+    border-color: #125dff;
+    background-color: #125dff;
+}
+.home > p:hover {
+    color: #ababab;
+}
+.pokedex > p:hover {
+    color: #ed0000;
+}
+.games > p:hover {
+    color: #ff6709;
+}
+.trading-cards > p:hover {
+    color: #ffac11;
+}
+.pokitv > p:hover {
+    color: #3fff04;
+}
+.pokievent > p:hover {
+    color: #03c4ff;
+}
+.news > p:hover {
+    color: #125dff;
+}
+
+/* MAIN CONTENT */
+
+main{
+    display: block;
+    background-image: url(images/main-content/main-bg.png);
+    margin: 0px 80px 0px;
+}
+.container-1{    
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: 150px;
+    width: 760px;
+}
+.container-1 > .red {
+    width: 97%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border: 2px solid #e3350d;
+    border-radius: 10px;
+    background-color: #e3350d;
+}
+.red img {
+    width: 100%;
+}
+.red h3 {
+    color: #fff;
+    font-size: 137.5%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    padding-left: 10px;
+}
+.red p {
+    color: #fff;
+    padding-left: 10px;
+    font-family: "Roboto",arial,sans-serif;
+    font-size: 100%;
+    font-weight: 500;
+    line-height: 125%;
+}
+.container-1 > .black {
+    width: 47%;
+    margin-left: 10px;
+    border: 2px solid #313131;
+    border-radius: 5px;
+    background-color: #313131;
+    display: inline-block;
+}
+.black img {
+    width: 100%;
+}
+.black h3 {
+    color: #fff;
+    font-size: 137.5%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    padding-left: 10px;
+}
+.container-1 > .green {
+    width: 47%;
+    margin-left: 10px;
+    border: 2px solid #4dad5b;
+    border-radius: 5px;
+    background-color: #4dad5b;
+    display: inline-block;
+}
+.green img {
+    width: 100%;
+}
+.green h3 {
+    color: #fff;
+    font-size: 137.5%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    padding-left: 10px;
+}
+.container-2{    
+    display: inline-block;
+    margin-top: 70px;
+    margin-right: 50px;
+    width: 200px;
+}
+.container-2 > .grey {
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border: 2px solid #656060;
+    border-radius: 5px;
+    background-color: #656060;
+    display: block;
+}
+.grey img {
+    width: 100%;
+}
+.grey h3 {
+    color: #fff;
+    font-size: 130%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    padding-left: 10px;
+}
+.container-2 > .brown {
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border: 2px solid #766040;
+    border-radius: 5px;
+    background-color: #766040;
+    display: block;
+}
+.brown img {
+    width: 100%;
+}
+.brown h3 {
+    color: #fff;
+    font-size: 130%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    padding-left: 10px;
+}
+.container-2 > .blue {
+    width: 100%;
+    margin-left: 10px;
+    border: 2px solid #1b53ba;
+    border-radius: 5px;
+    background-color: #1b53ba;
+    display: block;
+}
+.blue img {
+    width: 100%;
+}
+.blue h3 {
+    color: #fff;
+    font-size: 130%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    padding-left: 10px;
+}
+.slider {
+    margin-top: 50px;
+}
+.slider h3 {
+    background-color: #313131;
+    color: #fff;
+    margin-bottom: 0px;
+    padding-left: 600px;
+}
+.slider > .slider-image-1 {
+    width: 677px;
+    height: 250px;
+    margin-top: 0px;
+}
+.slider > .slider-image-2 {
+    width: 677px;
+    height: 250px;
+    margin-top: 0px;
+}
+.section_2{
+    margin-top: 40px;
+    margin-left: 210px;
+}
+.purple_orange{
+    display: inline-block;
+    margin-right: 30px;
+}
+.exciting_purple{
+    margin-top: 50px;
+    background-color: #B38AEA;
+}
+.exciting_purple .slogan_main{
+    color: white;
+    font-size: 1.5em;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.exciting_purple .slogan_sub{
+    padding: 10px 20px ;
+}
+.orange_unite{
+    display: inline-block;
+    background-color: orange;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.orange_unite .slogan_main{
+    color: white;
+    font-size: 1.3em;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.orange_unite .slogan_sub{
+    padding: 10px 20px ;
+}
+.black_blue{
+    display: inline-block;
+    margin-right: 30px;
+}
+.black_march{
+    background-color: grey;
+}
+.black_march .slogan_main{
+    color: white;
+    font-size: 1.3em;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.black_march .slogan_sub{
+    padding: 10px 20px ;   
+}
+.para2{
+    font-size: 1.5em;
+    color: #444444;
+    padding: 20px 10px; 
+}
+.Blue_pokemon{
+
+    background-color: rgb(68, 149, 177);
+    margin-top: 20px;
+}
+
+.Blue_pokemon .slogan_main{
+    color: white;
+    font-size: 1.3em;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.Blue_pokemon .slogan_sub{
+    padding: 10px 20px ;
+}
+.blue_orange{
+    display: inline-block;
+}
+.blue_pokemon_unite{
+
+    background-color: royalblue;
+}
+
+.blue_pokemon_unite .slogan_main{
+    color: white;
+    font-size: 1.3em;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.blue_pokemon_unite .slogan_sub{
+    padding: 10px 20px ;
+    color: lightblue;
+}
+
+
+.orange_pokemon_legend{
+    background-color: orangered;
+    margin-top: 20px;
+}
+
+.orange_pokemon_legend .slogan_main{
+    color: white;
+    font-size: 1.3em;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.orange_pokemon_legend .slogan_sub{
+    padding: 10px 20px ;
+    color: lightgrey;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 50px;
+    background-color: #1F1F1F;
+}
+
+.Pokemon_company{
+    display: inline-block;
+    margin: 10px 150px;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 3px solid black;
+}
+.Pokemon_company h1{
+    color: white;
+    font-size: 1.75em;
+}
+
+.Pokemon_company a{
+    text-decoration: none;
+    color: grey;
+}
+.Pokemon_company ul > li{
+    list-style-type: none;
+}
+
+.social_logos{
+    display: inline-block;
+    border-right: 3px solid black;
+    padding-right: 15px;
+    padding-top: 12px;
+}
+
+.safe_harbor{
+    display: inline-block;
+    padding: 60px 20px 60px 20px;
+}
